@@ -1,0 +1,39 @@
+body {
+  font-family: "Helvetica", Sans-Serif;
+  background-color: aliceblue;
+}
+
+h1, h3, h4 {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(0, 18, 12);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  width: 55%;
+  padding: 8px;
+  margin-left: 22%;
+  height: 40vw;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(0, 18, 12);
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  white-space: normal !important;
+  word-wrap: break-word;
+  width: 20vw;
+  margin-top: 5px;
+  margin-left: 40%;
+  text-align: center;
+  padding: 10px 10px;
+}
